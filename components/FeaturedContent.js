@@ -61,41 +61,41 @@ const FeaturedContent = ({ description, title, id }) => {
         } */}
         <FeatureCard
           id={123}
-          imgUrl="https://links.papareact.com/wru"
-          title="first one!!"
+          imgUrl="https://media.istockphoto.com/id/870402320/photo/a-social-worker-meeting-with-a-group-of-villagers.jpg?s=612x612&w=is&k=20&c=JAQOTjAdXVOlOa8kdmuv7nhXJfw8H6SGI9QqLIRvpTU="
+          title="Drishti NGO"
           rating={4.5}
           lat={25.3819260}
           long={87.0904168}
           dishes={[]}
           short_description="desvcription description description desvcription description description desvcriptiondescription description desvcriptiondescription description desvcription "
           address="240 yemen road Yemen"
-          genre="chinese"
+          genre="NGO"
         />
 
         <FeatureCard
           id={123}
-          imgUrl="https://links.papareact.com/wru"
-          title="Second one!!"
+          imgUrl="https://media.istockphoto.com/id/1175282165/photo/a-poor-young-boy-is-out-of-school-cause-of-couldnt-afford-fee.jpg?s=612x612&w=is&k=20&c=7byofU-INrNpwAAqqxLiViIq8hJWMHit5LNTWjdHK78="
+          title="Kalyani NGO"
           rating={4.5}
           lat={25.3819260}
           long={87.0904168}
           dishes={[]}
           short_description="description description desvcription description description desvcription description description desvcription description description desvcriptiondescription description desvcriptiondescription description desvcription "
           address="240 yemen road Yemen"
-          genre="chinese"
+          genre="Old Age Home"
         />
 
         <FeatureCard
           id={123}
-          imgUrl="https://links.papareact.com/wru"
-          title="third one!!"
+          imgUrl="https://media.istockphoto.com/id/1223036866/photo/monks-of-ramakrishna-mission-donating-foods-during-lockdown-period.jpg?s=612x612&w=is&k=20&c=5xLZNhYinBaFf4R70fI_-V577QS8205AWGmuMHX-q94="
+          title="Apna Ghar NGO"
           rating={4.5}
           lat={25.3819260}
           long={87.0904168}
           dishes={[]}
           short_description="description description desvcription description description desvcription description description desvcription description description desvcriptiondescription description desvcriptiondescription description desvcription "
           address="240 yemen road Yemen"
-          genre="chinese"
+          genre="Orphanage"
         />
       </ScrollView>
     </View>

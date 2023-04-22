@@ -79,19 +79,19 @@ const CartScreen = () => {
 
      <View className="bg-gray-100 border-t-1 border-gray-400 z-20">
         <View className="flex-row justify-between px-5 py-2">
-          <Text className="text-gray-400">Subtotal</Text>
+          <Text className="text-gray-400">Reward points</Text>
           <Text className="text-gray-400">116.85</Text>
         </View>
         <View className="flex-row justify-between px-5 py-2">
-          <Text className="text-gray-400">Delivery Fee</Text>
+          <Text className="text-gray-400">Extra points</Text>
           <Text className="text-gray-400">5.99</Text>
         </View>
         <View className="flex-row justify-between px-5 py-2">
-          <Text>Order Total</Text>
+          <Text>Total points</Text>
           <Text className="font-bold">122.84</Text>
         </View>
         <TouchableOpacity className="bg-[#00CCBB] p-3 mx-4 rounded-md mb-3" onPress={() => navigation.navigate("PreparingOrder")}>
-          <Text  className=" text-white text-center font-medium text-lg">Place Order</Text>
+          <Text  className=" text-white text-center font-medium text-lg">Donate Now!</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

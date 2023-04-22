@@ -10,6 +10,7 @@ import { Provider } from 'react-redux'
 import CartScreen from './screens/CartScreen';
 import PreparingOrderScreen from './screens/PreparingOrderScreen';
 import DeliveryScreen from './screens/DeliveryScreen';
+import MainScreen from './screens/MainScreen';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
       <Stack.Group screenOptions={{statusBarHidden:true}}>
       <Stack.Screen name="Home" component={Homescreen} />
       <Stack.Screen name="Restaurant" component={Restaurantscreen} />
+      <Stack.Screen name="MainScreen" component={MainScreen} />
       </Stack.Group>
       <Stack.Group screenOptions={{presentation: 'fullScreenModal', headerShown: false, animation:"slide_from_bottom", statusBarTranslucent: false, statusBarHidden: false, statusBarColor:'#00CCBB'}}>
       <Stack.Screen name="Cart" component={CartScreen}/>

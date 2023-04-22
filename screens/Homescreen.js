@@ -7,6 +7,7 @@ import {
   TextInput,
   ScrollView,
   Platform,
+  TouchableOpacity,
 } from "react-native";
 import { useLayoutEffect, useEffect, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
@@ -67,7 +68,7 @@ const Homescreen = () => {
         </View>
 
         <View className="flex-1">
-          <Text className="font-bold text-gray-400 text-xs">Deliver now</Text>
+          <Text className="font-bold text-gray-400 text-xs">Donate now</Text>
 
           <View className="flex-row">
             <Text className="font-bold text-xl">Current Location</Text>
@@ -77,8 +78,9 @@ const Homescreen = () => {
             </View>
           </View>
         </View>
-
-        <UserIcon size={35} color="#00CCBB" />
+        <TouchableOpacity>
+        <UserIcon size={35} color="#00CCBB" onPress={()=>Navigation.navigate("MainScreen")}/>
+        </TouchableOpacity>
       </View>
 
       {/* search-filter */}
@@ -86,7 +88,7 @@ const Homescreen = () => {
         <View className="flex-row flex-1 space-x-2 bg-gray-200 p-3">
           <MagnifyingGlassIcon size={20} color="gray" />
           <TextInput
-            placeholder="Let's find you food!"
+            placeholder="Find a NGO"
             keyboardType="default"
           />
         </View>
@@ -114,18 +116,18 @@ const Homescreen = () => {
        ))} */}
 
         <FeaturedContent
-          description="the first featured content!"
-          title="Featured1"
+          description="These are some NGOs near you, for instant self fulfillment!"
+          title="NGOs near you"
           FeatureCategory="some kinda feature"
         />
         <FeaturedContent
-          description="the secomf featured content!"
-          title="Feature21"
+          description="These are some of the Top NGOs making lives better!"
+          title="Top NGOs"
           FeatureCategory="some kinda feature"
         />
         <FeaturedContent
-          description="the thirod featured content!"
-          title="Featured23"
+          description="These are some of the NGOs which are growing actively!"
+          title="Actively growing NGOs"
           FeatureCategory="some kinda feature"
         />
       </ScrollView>
