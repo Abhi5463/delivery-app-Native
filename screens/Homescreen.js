@@ -79,7 +79,7 @@ const Homescreen = () => {
           </View>
         </View>
         <TouchableOpacity>
-        <UserIcon size={35} color="#00CCBB" onPress={()=>Navigation.navigate("MainScreen")}/>
+        <UserIcon size={35} color="#00CCBB" onPress={()=>Navigation.navigate("Register")}/>
         </TouchableOpacity>
       </View>
 
